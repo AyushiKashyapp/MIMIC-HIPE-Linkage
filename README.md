@@ -7,7 +7,8 @@ This repository contains the complete end-to-end pipeline for creating a **de-id
 
 ## 📑 Table of Contents
 
-- 🚦 Project Overview 
+- 🚦 Project Overview
+- 🛢 Dataset Overview
 - 🔄 Workflow Steps  
   - 1️⃣ Data Understanding & Exploration
   - 2️⃣ Data Anonymization Module 
@@ -30,6 +31,12 @@ This project aims to transform raw ICU data and linked external health outcomes 
 - 🛡️ **Simulated governance and role-based access control**  
 
 The goal is to enable researchers to perform predictive modeling, policy simulations, and knowledge discovery on sensitive health data while ensuring privacy and ethical compliance.
+
+---
+
+## 🛢 Dataset Overview
+
+This project uses the MIMIC-III dataset, a comprehensive, publicly available database containing detailed clinical data for over 60,000 ICU admissions from 2001 to 2012. The dataset includes patient demographics, vital signs, laboratory test results, diagnoses, procedures, medications, and outcomes. It covers a wide range of clinical events and interventions, providing a rich source of information for healthcare research and analysis. [Find it here!](https://www.kaggle.com/datasets/asjad99/mimiciii/data)
 
 ---
 
