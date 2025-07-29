@@ -1,0 +1,6 @@
+CREATE USER 'mimic_user'@'localhost' IDENTIFIED BY 'mypassword123';
+GRANT ALL PRIVILEGES ON *.* TO 'mimic_user'@'localhost' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
+
+SHOW GRANTS FOR 'mimic_user'@'localhost';
+
