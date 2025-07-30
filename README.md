@@ -15,8 +15,9 @@ This repository contains the complete end-to-end pipeline for creating a **de-id
   - 3️⃣ Data Linkage Simulation (HIPE & Other Sources)
   - 4️⃣ Research Database Design & Storage
   - 5️⃣ Data Quality and Cleaning Pipeline 
-  - 6️⃣ Multimodal Machine Learning-Readiness 
-  - 7️⃣ Governance & Access Simulation
+  - 6️⃣ Multimodal Machine Learning-Readiness
+  - 7️⃣ Feature Engineering and EDA 
+  - 8️⃣ Governance & Access Simulation
 - ⚙️ Usage
 ---
 
@@ -106,7 +107,20 @@ This project uses the MIMIC-III dataset, a comprehensive, publicly available dat
 
 ---
 
-### 7️⃣ Governance & Access Simulation
+### 7️⃣ Automated Feature Engineering & EDA
+
+- **Goal:** Quickly explore, summarize, and engineer features from patient-level datasets in a reproducible way. 🧪📊  
+- **Process:**  
+  - Generate summary statistics and identify missing values across columns. 📉  
+  - Compute correlation heatmaps and rank numeric features by variance. 🔍  
+  - Apply PCA for dimensionality reduction and visualize data structure. 🧬  
+  - Detect outliers using Isolation Forest and flag anomalous records. 🚨  
+  - Save histograms and density plots for the most informative features. 🖼️  
+  - Export all reports and visualizations to an output directory for downstream analysis. 📁✅
+
+---
+
+### 8️⃣ Governance & Access Simulation
 
 - **Goal:** Simulate real-world data governance processes ensuring ethical, logged, and role-restricted access to sensitive data. 🛡️  
 - **Process:**  
