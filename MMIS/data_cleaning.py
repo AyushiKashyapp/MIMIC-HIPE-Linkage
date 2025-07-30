@@ -48,5 +48,5 @@ def clean_and_store_tables(table_list, engine):
             df.to_sql(f"{table_name}_clean", conn, if_exists='replace', index=False)
             print(f"✅ Cleaned table stored: {table_name}_clean")
 
-    get_provenance_log().to_csv('data_provenance_log.csv', index=False)
+    get_provenance_log().to_csv('../outputs/data_provenance_log.csv', index=False)
     print("📝 Provenance log saved as data_provenance_log.csv")
